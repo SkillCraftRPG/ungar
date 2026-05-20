@@ -36,3 +36,21 @@ export type Collection = Aggregate & {
   htmlContent?: string | null;
   articles: Article[];
 };
+
+export type MapContent = Aggregate & {
+  key: string;
+  title: string;
+  width: number;
+  height: number;
+  source: string;
+  markers: Marker[];
+};
+
+export type Marker = {
+  id: string;
+  key: string;
+  title: string;
+  x: number;
+  y: number;
+  htmlContent?: string | null;
+};

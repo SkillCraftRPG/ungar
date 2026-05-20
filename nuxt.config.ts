@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
   modules: ["@nuxtjs/i18n", "@pinia/nuxt", "pinia-plugin-persistedstate/nuxt"],
-  css: ["bootstrap/dist/css/bootstrap.min.css", "@fortawesome/fontawesome-svg-core/styles.css", "~/assets/styles/main.css"],
+  css: ["bootstrap/dist/css/bootstrap.min.css", "@fortawesome/fontawesome-svg-core/styles.css", "leaflet/dist/leaflet.css", "~/assets/styles/main.css"],
   app: {
     head: {
       link: [
@@ -38,9 +38,10 @@ export default defineNuxtConfig({
         "@vue/devtools-core",
         "@vue/devtools-kit",
         "bootstrap",
-        "logitar-js", // CJS
+        "leaflet",
+        "logitar-js",
         "marked",
-        "md5", // CJS
+        "md5",
         "nanoid",
       ],
     },
