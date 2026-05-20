@@ -1,0 +1,10 @@
+{
+  "brand": "Ungar",
+  "rules": "Règles",
+  "theme": {
+    "title": "Thème",
+    "auto": "Automatique",
+    "dark": "Sombre",
+    "light": "Clair"
+  }
+}

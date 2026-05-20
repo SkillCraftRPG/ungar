@@ -1,0 +1,11 @@
+name: ungar
+services:
+  ungar:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ungar
+    container_name: ungar
+    restart: unless-stopped
+    ports:
+      - 28088:80
