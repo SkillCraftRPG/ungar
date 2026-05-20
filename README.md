@@ -1,4 +1,4 @@
-# Nuxt Minimal Starter
+# Ungar Website
 
 A public-facing website that consumes managed content, renders encyclopedic material, and delivers localized, static-friendly experiences to end users.
 
