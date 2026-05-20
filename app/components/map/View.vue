@@ -1,5 +1,8 @@
 <template>
-  <div :id="id" class="map"></div>
+  <div>
+    <h3 class="h5">{{ map.title }}</h3>
+    <div :id="id" class="map"></div>
+  </div>
 </template>
 
 <script setup lang="ts">
