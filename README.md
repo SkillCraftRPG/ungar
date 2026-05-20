@@ -1,6 +1,6 @@
 # Nuxt Minimal Starter
 
-A public-facing website that consumes managed content, renders encyclopedic content, and delivers localized, static-friendly experiences to end users.
+A public-facing website that consumes managed content, renders encyclopedic material, and delivers localized, static-friendly experiences to end users.
 
 ## Setup
 
