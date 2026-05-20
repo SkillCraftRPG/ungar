@@ -2,8 +2,10 @@
   <main class="container">
     <template v-if="article">
       <h1>{{ title }}</h1>
-      <EncyclopediaBreadcrumb :article="article" />
       <MarkdownContent v-if="article.htmlContent" :text="article.htmlContent" />
+      <ClientOnly>
+        <MapList :article="article" />
+      </ClientOnly>
     </template>
   </main>
 </template>

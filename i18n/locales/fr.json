@@ -1,5 +1,8 @@
 {
   "brand": "Ungar",
+  "maps": {
+    "title": "Cartes"
+  },
   "rules": "Règles",
   "theme": {
     "title": "Thème",
