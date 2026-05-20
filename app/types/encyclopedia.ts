@@ -43,4 +43,14 @@ export type MapContent = Aggregate & {
   width: number;
   height: number;
   source: string;
+  markers: Marker[];
+};
+
+export type Marker = {
+  id: string;
+  key: string;
+  title: string;
+  x: number;
+  y: number;
+  htmlContent?: string | null;
 };
